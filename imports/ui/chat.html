@@ -1,0 +1,14 @@
+<template name="chat">
+    <li class="{{#if checked}}checked{{/if}}">
+        <div class="right">
+            <span class="score">Score : {{score}}</span>
+            <button class="delete">&times;</button>
+        </div>
+        <div class="score">
+            <button class="up"><img src="img/up.png" alt=""></button>
+            <button class="down"><img src="img/down.png" alt=""></button>
+        </div>
+
+        <span class="text">{{text}}</span>
+    </li>
+</template>
